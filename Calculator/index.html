@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<head>
+<title>Calculator</title>
+<link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+<div class="calculator">
+    <div id="ecran"></div>
+    <div class="taste">
+        <div class="row1">
+            <button onclick="scrie(this)">7</button>
+            <button onclick="scrie(this)">8</button>
+            <button onclick="scrie(this)">9</button>
+            <button onclick="scrie(this)">*</button>
+        </div>
+        <div class="row2">
+            <button onclick="scrie(this)">4</button>
+            <button onclick="scrie(this)">5</button>
+            <button onclick="scrie(this)">6</button>
+            <button onclick="scrie(this)">/</button>
+        </div>
+        <div class="row3">
+            <button onclick="scrie(this)">1</button>
+            <button onclick="scrie(this)">2</button>
+            <button onclick="scrie(this)">3</button>
+            <button onclick="scrie(this)">+</button>
+        </div>
+        <div class="row4">
+            <button id="btn" onclick="change()">changetheme</button>
+            <button onclick="scrie(this)">0</button>
+            <button onclick="calc()">=</button>
+            <button onclick="scrie(this)">-</button>
+        </div>
+    </div>
+    <div class="del">
+        <button onclick="del(this)">DEL</button>
+    </div>
+</div>
+</body>
+<script src="main.js"></script>
+</html>
